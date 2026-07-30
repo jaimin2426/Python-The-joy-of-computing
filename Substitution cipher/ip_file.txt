@@ -1,0 +1,5 @@
+This Python program reads characters one by one from an input file (`ip_file.txt`) and writes them into an output file (`op_file.txt`) using a dictionary that maps each ASCII letter to itself. 
+The dictionary is created using `string.ascii_letters`, and for every character read, if it exists in the dictionary, 
+its mapped value is written; otherwise, the character itself is written. 
+The program continues until the end of the file is reached, 
+printing each processed character along the way.
